@@ -1,4 +1,4 @@
-# kuberd 
+# kubesysd
 <H2>High availability for systemd services using K8s.</H2>
 
 - High availability for systemd services running on VM or Bare-metal machines.<br>
