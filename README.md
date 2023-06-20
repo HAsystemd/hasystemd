@@ -8,7 +8,7 @@
 - Automated fencing of lost or unhealthy server Nodes.<br>
 - Quick and easy high availability configuration via single yaml file.<br>
 
-## Table of contents
+### Table of contents
 * [Installation]()
     * [High Available K8s setup]()
     * [Deploy with helm]()
