@@ -1,12 +1,13 @@
-# kube-ha-systemd
-<H3>High availability for install based systemd services using K8s.</H3>
+# hasystemd
+<H3>High availability for systemd services using K8s.</H3>
 
-- High availability for systemd services running on VM or Bare-metal machines.<br>
-- Service recovery and fail-over to another worker Node if recovery fails..<br>
-- Automated take-over to another ruuning instance when primary/secondary instances are present (database services, key-value stores..).
-- High availability network management VIP/EIP.<br>
-- Automated fencing of lost or unhealthy server Nodes.<br>
-- Quick and easy high availability configuration via single yaml file.<br>
+- High availability for <b>systemd</b> based network services running on VM or Bare-metal machines.<br>
+- Constant service monitoring, detecting service failures caused by various (ex. Disk, Memroy, CPU, Network, Software..) failures.<br>
+- Automated switch-over to another ruuning service instance with primary/secondary (ex. Database, Mail, Web, VPN, Key-Value stores..).<br>
+- High availability network management (Virtual IP) associated with the primary instance.<br>
+- Automated fencing of lost or unhealthy server Nodes if enabled.<br>
+- Setup alerts based on events.<br>
+- Quick and easy installation, configuration and managment.<br>
 
 ### Table of contents
 * [Installation]()
