@@ -1,4 +1,4 @@
-# hasystemd
+# HAsystemd
 <H3>High availability for systemd services using K8s.</H3>
 
 - High availability for <b>systemd</b> based network services running on VM or Bare-metal machines.<br>
